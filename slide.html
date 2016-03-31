@@ -1,0 +1,437 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>IT Firm Shadow</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Expand, contract, animate forms with jQuery wihtout leaving the page" />
+        <meta name="keywords" content="expand, form, css3, jquery, animate, width, height, adapt, unobtrusive javascript"/>
+		<link rel="stylesheet" href="css/styleshome.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/stylescom.css">
+		<link rel="stylesheet" href="css/stylesupload.css">
+		<link rel="stylesheet" href="css/stylescontact.css">
+		<link rel="stylesheet" href="css/stylesfoot.css">
+    	<link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+        <script src="bootstrap\jquery.min.js"></script>
+        
+		<script src="bootstrap\js\bootstrap.min.js"></script>
+		<style>
+         #homeid,.jumbotron {
+            background-color:Wheat;
+			 text-align:center;
+			 color:Teal;
+             font-family:verdana;
+             
+		 }
+		 #homeid,.sam {
+              background-color: Tan;
+			 color:white;
+             font-family:verdana;
+             
+		 }
+		 #homeid,.datahome {
+             background-color:Wheat;
+			 color:black;
+             font-family:verdana;
+          
+		 }
+		</style>
+        <style>
+            #regid,.jumbotron {
+                  background-color:Wheat;
+				  color:black;
+                  font-family:verdana;
+			}
+			#regid,.sam {
+                   background-color: Tan;
+				   color:black;
+                   font-family:verdana;
+			}
+		</style>
+		<style>
+            #comid,.jumbotron {
+                  background-color:Wheat;
+			}
+			#comid,.sam {
+                   background-color: Tan;
+			}
+		</style>
+
+    </head>
+<body>
+<!-- Home -->
+<div class="homeclass" id="homeid">
+<div class="container">
+  <div class="jumbotron" style="color:Teal">
+      <h1><i>IT FIRM SHADOW</i></h1>
+  </div>
+</div>
+
+<div class="container">
+  
+<div class="row">
+  <div class="col-sm-12">
+	<div class="sam"
+     <nav class="navbar navbar-default">
+       <div class="container-fluid">
+         <div>
+           <ul class="nav navbar-nav">
+				  <li class="active"><a href="#homeid">Home</a></li>
+				  <li><a href="#regid">Register</a></li>
+				  <li><a href="#comid">Company Profile</a></li>
+				  <li><a href="#uploadid">Upload</a></li>
+				  <li><a href="#contactid">Contact Us</a></li>
+           </ul>
+	       <ul class="nav navbar-nav navbar-right">
+				  <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+           </ul>
+         </div>
+        </div>
+      </nav>
+     </div>
+   </div>
+  </div>
+</div>
+
+<div class="container">
+   <div class="jumbotron">
+     <div class="datahome">
+
+     The main theme of this project is provide awareness about the profiles of IT companies present in our country. It will give all the details of firms like company established year, employability , CEO's in present and previous, location  of company, and recent project's etc., This project is aimed to provide information to users friendly manner. And also in this application includeing like previous written exam question papers, and some links(i., if any user need to upload some information, or additional information about company). By this stakeholders  can update what are the day-to-day changers and they can privide the new company details.<br>
+	 There are many companies are providing their profiles individually on their one website. And there is huge data, it is difficult to analysis exact data in peak stage before attending the interview. We are going to proposed all companies informations in one website and that will be help to students or user's how to know about company details exactly. In this app infrastructure like it has company logo, description about companies in our country. The intention of this appilcation is to make user to face an interview with full company profile.
+	
+	</div>
+   </div>
+ </div>
+</div><!-- Home Ends -->
+
+
+<!-- Register -->
+<div class="registerclass" id="regid">
+ <div class="container">
+  <div class="jumbotron">
+   <form class="register">
+    <fieldset>
+    <legend><h3><b>Register</b></h3></legend>
+    <center>
+
+<pre>
+<div class="sam">
+<h4>
+First Name:            <input type="text" required placeholder="frist"/><br><br>
+Last Name:             <input type="text" required placeholder="last" /><br><br>
+Email Id:                <input type="text" required placeholder="Email Id" /><br><br>
+Password:              <input type="password" required placeholder="Password" /><br><br>
+Re Enter Password:<input type="password" required placeholder="Re Enter Password" /><br><br>
+Phone Number:      <input type="text" required placeholder="Pnhone No" /><br><br>
+<div>
+<input type="submit" value="Register" /><br>
+<a href="login.html" rel="login" class="linkform">You have an account already?</a>
+<a href="login.html">Log in here</a> 
+</h4>
+</div>
+ </div>
+
+ </pre>
+
+   </form>
+  </div>
+ </div>
+</div><!-- Register End -->
+<!--
+<form role="form">
+  <div class="form-group">
+    <label for="fname">First Name:</label>
+    <input type="text" class="form-control" id="fname" required placeholder="frist">
+  </div>
+  <div class="form-group">
+    <label for="lname">Last Name: </label>
+    <input type="text" class="form-control" id="lname" required placeholder="last">
+  </div>
+   <div class="form-group">
+    <label for="email">Email Id: </label>
+   <input type="text" class="form-control" id="email" required placeholder="Email Id">
+   </div>
+   <div class="form-group">
+    <label for="pwd">Password: </label>
+   <input type="password" class="form-control" id="pwd" required placeholder="pwd">
+   </div>
+   <div class="form-group">
+    <label for="rpwd">Re Enter Password: </label>
+   <input type="text" class="form-control" id="rpwd" required placeholder="Re Enter Password">
+   </div>
+   <div class="form-group">
+    <label for="ph">Phone Number: </label>
+   <input type="text" class="form-control" id="ph" required placeholder="Phone Number">
+   </div>
+
+  <button type="submit" class="btn btn-default">Submit</button> 
+-->
+
+<div class="comclass" id="comid"><!-- Comapny Profile -->
+
+<div class="container">
+  <div class="jumbotron">
+   <fieldset>
+    <legend><h3><b>Company Profiles</b></h3></legend>
+	<!-- <form action="#comid">
+  Search Google:
+  <input type="search" name="googlesearch" action="#comid">
+  <input type="submit" action="#comid">
+</form> -->
+<div id="tfheader">
+  <form id="tfnewsearch" method="get" action="slide.html">
+  <input type="text" class="tftextinput" size="21" maxlength="120">
+  <input type="submit" value="search" class="tfbutton">
+  </form>
+</div>
+<br>
+      <center>
+    <div class="list-group">
+    <a href="companies/3i_infotech.html" class="list-group-item active">3i infotech</a>
+    <a href="companies/AAI.html" class="list-group-item">AAI</a>
+	<a href="#" class="list-group-item">ABACUS</a>
+	<a href="#" class="list-group-item">ABB</a>
+	<a href="#" class="list-group-item">Accel Frontline</a>
+	<a href="#" class="list-group-item">Accenture</a>
+    <a href="#" class="list-group-item">Aditi</a>
+	<a href="#" class="list-group-item">Adode</a>
+	<a href="#" class="list-group-item">ADP</a>
+    <a href="#" class="list-group-item">Agreeya</a>
+	<a href="#" class="list-group-item">Akamai</a>
+	<a href="#" class="list-group-item">Alcatel Lucent</a>
+    <a href="#" class="list-group-item">Allfon</a>
+	<a href="#" class="list-group-item">Alumnus</a>
+	<a href="#" class="list-group-item">Amazon</a>
+    <a href="#" class="list-group-item">Amdocs</a>
+	<a href="#" class="list-group-item">AMI</a>
+	<a href="#" class="list-group-item">Andhra Bank</a>
+    <a href="#" class="list-group-item">AppLabs</a>
+	<a href="#" class="list-group-item">Apps Associates</a>
+	<a href="#" class="list-group-item">Aricent</a>
+    <a href="#" class="list-group-item">Ashok Leyland</a>
+	<a href="#" class="list-group-item">Aspire</a>
+	<a href="#" class="list-group-item">Atos Origin</a>
+    <a href="#" class="list-group-item">Axes</a>
+	<a href="#" class="list-group-item">Bajaj</a>
+	<a href="#" class="list-group-item">Bank of Maharashtra</a>
+    <a href="#" class="list-group-item">BEL</a>
+	<a href="#" class="list-group-item">BEML</a>
+	<a href="#" class="list-group-item">BHEL</a>
+    <a href="#" class="list-group-item">BirlaSoft</a>
+	<a href="#" class="list-group-item">Blue Dart</a>
+	<a href="#" class="list-group-item">Blue Star</a>
+    <a href="#" class="list-group-item">BOB</a>
+	<a href="#" class="list-group-item">BPCL</a>
+	<a href="#" class="list-group-item">BPL</a>
+    <a href="#" class="list-group-item">Brakes</a>
+	<a href="#" class="list-group-item">BSNL</a>
+	<a href="#" class="list-group-item">Cadence</a>
+    <a href="#" class="list-group-item">Calsoft</a>
+	<a href="#" class="list-group-item">Canara Bank</a>
+	<a href="#" class="list-group-item">Canarys</a>
+    <a href="#" class="list-group-item">Capgemini</a>
+	<a href="#" class="list-group-item">Caritor</a>
+	<a href="#" class="list-group-item">Caterpillar</a>
+    <a href="#" class="list-group-item">CDAC</a>
+	<a href="#" class="list-group-item">C-DOT</a>
+	<a href="#" class="list-group-item">CGI</a>
+    <a href="#" class="list-group-item">Changepond</a>
+	<a href="#" class="list-group-item">Ciena</a>
+	<a href="#" class="list-group-item">Cisco</a>
+    <a href="#" class="list-group-item">Citicorp</a>
+	<a href="#" class="list-group-item">CMC</a>
+    <a href="#" class="list-group-item">Consagous</a>
+	<a href="#" class="list-group-item">Convergys</a>
+    <a href="#" class="list-group-item">CORDYS</a>
+	<a href="#" class="list-group-item">Crompton</a>
+	<a href="#" class="list-group-item">CSC</a>
+    <a href="#" class="list-group-item">CTS</a>
+	<a href="#" class="list-group-item">Cummins</a>
+	<a href="#" class="list-group-item">Dell</a>
+    <a href="#" class="list-group-item">Deloitte</a>
+	<a href="#" class="list-group-item">Delphi-TVS</a>
+	<a href="#" class="list-group-item">DeShaw</a>
+    <a href="#" class="list-group-item">Deutsche</a>
+	<a href="#" class="list-group-item">Dotcom</a>
+	<a href="#" class="list-group-item">DRDO</a>
+    <a href="#" class="list-group-item">EDS</a>
+	<a href="#" class="list-group-item">ELGI</a>
+	<a href="#" class="list-group-item">ELICO</a>
+	<a href="#" class="list-group-item">EIL</a>
+	<a href="#" class="list-group-item">ERICSSON</a>
+	<a href="#" class="list-group-item">Essar</a>
+    <a href="#" class="list-group-item">Fidelity</a>
+	<a href="#" class="list-group-item">Flextronics</a>
+	<a href="#" class="list-group-item">Freescale</a>
+    <a href="#" class="list-group-item">FXLabs</a>
+	<a href="#" class="list-group-item">GAIL</a>
+	<a href="#" class="list-group-item">GE</a>
+    <a href="#" class="list-group-item">Genpact</a>
+	<a href="#" class="list-group-item">Geodesic</a>
+	<a href="#" class="list-group-item">Geometric</a>
+    <a href="#" class="list-group-item">Globaledge</a>
+	<a href="#" class="list-group-item">GlobalLogic</a>
+	<a href="#" class="list-group-item">Godrej</a>
+	<a href="#" class="list-group-item">Google</a>
+	<a href="#" class="list-group-item">Grapecity</a>
+	<a href="#" class="list-group-item">HAL</a>
+    <a href="#" class="list-group-item">HCL</a>
+	<a href="#" class="list-group-item">Hexaware</a>
+	<a href="#" class="list-group-item">Honeywell</a>
+    <a href="#" class="list-group-item">HP</a>
+	<a href="#" class="list-group-item">HPCL</a>
+	<a href="#" class="list-group-item">HSBC</a>
+    <a href="#" class="list-group-item">Huawei</a>
+	<a href="#" class="list-group-item">Hughes</a>
+	<a href="#" class="list-group-item">IBM</a>
+    <a href="#" class="list-group-item">IBS</a>
+	<a href="#" class="list-group-item">ICICI</a>
+	<a href="#" class="list-group-item">iGate</a>
+    <a href="#" class="list-group-item">Impetus</a>
+	<a href="#" class="list-group-item">iNautix</a>
+	<a href="#" class="list-group-item">Indian Airforce</a>
+    <a href="#" class="list-group-item">Indian Airlines</a>
+	<a href="#" class="list-group-item">Infosys</a>
+	<a href="#" class="list-group-item">Infotech</a>
+	<a href="#" class="list-group-item">Intec</a>
+	<a href="#" class="list-group-item">Integra</a>
+	<a href="#" class="list-group-item">Intergraph</a>
+	<a href="#" class="list-group-item">IOCL</a>
+	<a href="#" class="list-group-item">iSOFT</a>
+	<a href="#" class="list-group-item">ISRO</a>
+	<a href="#" class="list-group-item">Ittiam</a>
+	<a href="#" class="list-group-item">JSM</a>
+	<a href="#" class="list-group-item">Keane</a>
+	<a href="#" class="list-group-item">Kenrxa</a>
+	<a href="#" class="list-group-item">L&T</a>
+	<a href="#" class="list-group-item">L&T Infotech</a>
+	<a href="#" class="list-group-item">LG Soft</a>
+	<a href="#" class="list-group-item">Lifetree</a>
+	<a href="#" class="list-group-item">LionBridge</a>
+	<a href="#" class="list-group-item">Mahindra Satyam</a>
+	<a href="#" class="list-group-item">Mastek</a>
+	<a href="#" class="list-group-item">Maveric</a>
+	<a href="#" class="list-group-item">McAfee</a>
+	<a href="#" class="list-group-item">MECON</a>
+	<a href="#" class="list-group-item">Microsoft</a>
+	<a href="#" class="list-group-item">MindTree</a>
+	<a href="#" class="list-group-item">Miraclesoft</a>
+    <a href="#" class="list-group-item">Mistral</a>
+	<a href="#" class="list-group-item">Motorola</a>
+	<a href="#" class="list-group-item">Mphasis</a>
+	<a href="#" class="list-group-item">MTNL</a>
+	<a href="#" class="list-group-item">NIC</a>
+	<a href="#" class="list-group-item">Nokia Siemens</a>
+	<a href="#" class="list-group-item">Novell</a>
+	<a href="#" class="list-group-item">NTPC</a>
+	<a href="#" class="list-group-item">Nucleus</a>
+	<a href="#" class="list-group-item">ORACLE</a>
+	<a href="#" class="list-group-item">Patni</a>
+	<a href="#" class="list-group-item">Perot</a>
+	<a href="#" class="list-group-item">Polaris</a>
+	<a href="#" class="list-group-item">Ramco</a>
+	<a href="#" class="list-group-item">Robert Bosch</a>
+	<a href="#" class="list-group-item">Samsung</a>
+	<a href="#" class="list-group-item">SAP</a>
+	<a href="#" class="list-group-item">Sapient</a>
+	<a href="#" class="list-group-item">Sasken</a>
+	<a href="#" class="list-group-item">SBI</a>
+	<a href="#" class="list-group-item">Sierra Atlantic</a>
+	<a href="#" class="list-group-item">Syntel</a>
+	<a href="#" class="list-group-item">TCS</a>
+	<a href="#" class="list-group-item">Tech Mahindra</a>
+	<a href="#" class="list-group-item">VeriFone</a>
+	<a href="#" class="list-group-item">Virtusa</a>
+	<a href="#" class="list-group-item">Wipro</a>
+	<a href="#" class="list-group-item">Zensar</a>
+
+      </div>
+    </div>
+ </div>
+
+</div><!-- Company profile Ends -->
+
+
+<!-- Update -->
+<div class="uploadclass" id="uploadid">
+ <div class="container">
+  <div class="jumbotron">
+                 If you have any queries related to any company profiles and if you want to share the your experiwnce related to any company you can post in bellow link. If you want any other details related to any company the user can post their queriws bellow.
+   <form>
+    <fieldset>
+      <legend><h3><b>Upload</b></h3></legend>
+       <center>
+        <div class="sam">
+        <h4>
+	   	 <div class="form-group">
+		  <label for="comment">Enter Your views:</label>
+		  <textarea class="form-control" rows="5" id="comment"></textarea>
+         </div><br><br>
+       <div>
+        <input type="submit" value="submit" /><br>
+       </h4>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+
+</div><!-- Upload Ends -->
+
+
+<!-- Contact us -->
+<div class="contactclass" id="contactid">
+ <div class="container">
+  <div class="jumbotron">
+   <form class="register">
+    <fieldset>
+    <legend><h3><b>Contact Us</b></h3></legend>
+    <center>
+
+<pre>
+<div class="sam">
+<h4> 
+Name:             <input type="text" required placeholder="Name"/><br><br>
+Email Id:          <input type="text" required placeholder="Email Id" /><br><br>
+Password:        <input type="password" required placeholder="Password" /><br><br>
+Phone Number:<input type="text" required placeholder="Pnhone No" /><br><br>
+Message:          <input type="textarea"  placeholder="Message"/><br><br> 
+<div>
+<input type="submit" value="Send" /><br> 
+</h4>
+</div>
+ </div>
+
+ </pre>
+
+   </form>
+  </div>
+ </div>
+</div><!-- Register End -->
+
+
+<!-- Footer -->
+<div class="footerclass" id="footerid">
+ <div class="container">  
+  <div class="row">
+   <div class="col-sm-12">
+	<div class="sam"
+     <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+       <div>
+       <footer>
+	   <br>
+       <center>  <p>Copyright &copy; Devi. All Rights Reserved.</p><center>
+	   <br>
+       </footer>
+       </div>
+      </div>
+     </nav>
+    </div>
+   </div>
+  </div>
+ </div>
+ </div>
+</body>
+</html>
